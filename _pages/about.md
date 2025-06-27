@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: '*Stand on the shoulders of giants.*'
+subtitle: '<i>Stand on the shoulders of giants.</i>'
 
 profile:
   align: right
