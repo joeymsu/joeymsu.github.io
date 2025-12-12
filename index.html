@@ -19,7 +19,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Joey Wagner">
 
-	<meta property="og:description" content>
+	<meta property="og:description" content="Full time student and researcher at Michigan State University">
 
 	<meta name="msapplication-TileColor" content="#090025">
 	<meta name="theme-color" content="#090025">
@@ -126,6 +126,14 @@
 		.example__info{
 			max-width: 90vw;
 		}
+		/* Fix icon spacing - override nth-child(4) rule for 5 icons */
+		.hud__icon:nth-child(4),
+		.hud__icon:nth-child(5) {
+			margin-right: 3em !important;
+		}
+		.hud__icon:nth-child(6) {
+			margin-right: 0 !important;
+		}
 		.preloader {
 			background: -webkit-linear-gradient(left, #090025 0%, #2f0028 100%);
 			background: -o-linear-gradient(left, #090025 0%, #2f0028 100%);
@@ -173,46 +181,46 @@
 
 		@keyframes sk-bounce {
 			0% {
-				-webkit-transform: transform: scale(0.0);
-				-ms-transform: transform: scale(0.0);
-				-o-transform: transform: scale(0.0);
+				-webkit-transform: scale(0.0);
+				-ms-transform: scale(0.0);
+				-o-transform: scale(0.0);
 				transform: scale(0.0);
 			}
 
 			20% {
-				-webkit-transform: transform: scale(1.0);
-				-ms-transform: transform: scale(1.0);
-				-o-transform: transform: scale(1.0);
+				-webkit-transform: scale(1.0);
+				-ms-transform: scale(1.0);
+				-o-transform: scale(1.0);
 				transform: scale(1.0);
 			}
 
 			40% {
-				-webkit-transform: transform: scale(1.5);
-				-ms-transform: transform: scale(1.5);
-				-o-transform: transform: scale(1.5);
+				-webkit-transform: scale(1.5);
+				-ms-transform: scale(1.5);
+				-o-transform: scale(1.5);
 				transform: scale(1.5);
 			}
 
 			60% {
-				-webkit-transform: transform: scale(2.0);
-				-ms-transform: transform: scale(2.0);
-				-o-transform: transform: scale(2.0);
+				-webkit-transform: scale(2.0);
+				-ms-transform: scale(2.0);
+				-o-transform: scale(2.0);
 				transform: scale(2.0);
 				opacity: .5;
 			}
 
 			80% {
-				-webkit-transform: transform: scale(2.5);
-				-ms-transform: transform: scale(2.5);
-				-o-transform: transform: scale(2.5);
+				-webkit-transform: scale(2.5);
+				-ms-transform: scale(2.5);
+				-o-transform: scale(2.5);
 				transform: scale(2.5);
 				opacity: .25;
 			}
 
 			100% {
-				-webkit-transform: transform: scale(3.0);
-				-ms-transform: transform: scale(3.0);
-				-o-transform: transform: scale(3.0);
+				-webkit-transform: scale(3.0);
+				-ms-transform: scale(3.0);
+				-o-transform: scale(3.0);
 				transform: scale(3.0);
 				opacity: 0;
 			}
