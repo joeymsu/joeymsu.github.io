@@ -599,6 +599,36 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="example-wrap">
+						<div class="example">
+							<div class="example__img" style="background-image: url(./img/dstream.png)"></div>
+							<div class="example__info absolute">
+								<h4 class="example__name" style="margin-bottom: 0.2em;">DStream Benchmarking</h4>
+								<p class="examples-desc section-description" style="color: rgb(235, 235, 235);">UURAF 2025 &middot; University of Michigan &middot; Zaman E3 Lab</p>
+								<p class="examples-desc section-description">
+									A benchmarking suite for fixed-capacity stream curation algorithms &mdash;
+									O(1)-overhead methods that decide which data points to retain from an
+									incoming stream under strict memory constraints. Motivated by lineage
+									tracking in massively parallel agent-based evolution simulations on
+									hardware like the Cerebras WSE-3, where each of ~900,000 cores has
+									under 1MB of memory.
+								</p>
+								<p class="examples-desc section-description">
+									I built a reproducible harness that profiles the steady, stretched,
+									and tilted curation strategies across buffer sizes, item sizes, and
+									scaling factors. The suite measures memory usage, execution time, and
+									coverage accuracy on CPU, GPU, and the Cerebras Wafer-Scale Engine,
+									surfacing trade-offs that guide algorithm selection for
+									resource-constrained phylogenetic reconstruction.
+								</p>
+								<p class="examples-desc section-description" style="color: rgb(200, 200, 200); font-size: 0.85em;">
+									Python &middot; NumPy &middot; Pandas &middot; Matplotlib &middot; Seaborn &middot; Jupyter &middot; OSF
+								</p>
+								<a class="example__link text-code-hover-feel" target="_blank" href="https://github.com/mmore500/downstream-benchmark">GitHub</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
